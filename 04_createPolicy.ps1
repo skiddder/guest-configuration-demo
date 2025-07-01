@@ -22,5 +22,5 @@ $PolicyConfig      = @{
 # Create the policy definition file
 $configurationPolicy = New-GuestConfigurationPolicy @PolicyConfig
 
-# Create new policy from definition file
+# Publish new policy from definition file
 New-AzPolicyDefinition -Name $name -Policy $configurationPolicy.Path -ManagementGroupName $tenantID 
