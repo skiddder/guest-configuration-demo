@@ -1,0 +1,40 @@
+/*
+@TargetNode='localhost'
+@GeneratedBy=sischwin
+@GenerationDate=07/01/2025 11:02:29
+@GenerationHost=MININT-KBSJAAT
+*/
+
+instance of MSFT_EnvironmentResource as $MSFT_EnvironmentResource1ref
+{
+Value = "This was set by machine configuration";
+ ModuleVersion = "2.12.0.0";
+ ModuleName = "PSDscResources";
+ Name = "MC_ENV_Demo01";
+ SourceInfo = "C:\\repos\\guest-configuration-demo\\authorConfigs.ps1::6::5::Environment";
+ ResourceID = "[Environment]MachineConfigurationDemo";
+ Ensure = "Present";
+ Target = {
+    "Process",
+    "Machine"
+};
+ ConfigurationName = "Demo01";
+};
+instance of OMI_ConfigurationDocument
+
+                    {
+ Version="2.0.0";
+
+                        MinimumCompatibleVersion = "1.0.0";
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+
+                        Author="sischwin";
+
+                        GenerationDate="07/01/2025 11:02:29";
+
+                        GenerationHost="MININT-KBSJAAT";
+
+                        Name="Demo01";
+
+                    };
